@@ -1,0 +1,167 @@
+
+@media screen and (max-width: 485px) {
+    nav{
+        justify-content: center;
+    }
+    #gallery #img{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    nav{
+        justify-content: center;
+    }
+    #gallery #img{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    nav{
+        margin-left: 60%;
+    }
+    #gallery #img{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+p {
+    font-size: 1.25rem;
+}
+figcaption, label, input, small {
+    font-size: 1rem;
+    font-weight: bold;
+}
+nav a {
+    font-size: 1.5rem;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+h2 {
+    font-size: 2rem;
+}
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: black;
+    max-width: 1300px;
+    margin: 0 auto;
+    border: none; 
+}
+
+header, main{
+    background-color: white;
+}
+
+header h1{
+    text-align: left;
+    margin: 1rem;
+    color: #007d7b; 
+}
+
+nav{
+    margin-left: 60%;
+    font-weight: bold;
+}
+
+nav ul{
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    justify-content: right;
+    list-style-type: none;
+}
+
+ [href="#top"]{
+    color: white;
+    text-decoration: none;
+    background-color: gray;
+
+    position:fixed;
+    bottom:0px;
+    right:0px;
+
+    padding: 1rem;
+
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+#about{
+padding: 1rem 1rem 0rem 1rem;
+}
+
+#gallery{
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+#gallery #img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#gallery p{
+    margin-left: 1rem;
+}
+
+#gallery figure{
+    max-width: 400px;
+    max-height: auto;
+    margin: 0 auto;
+}
+
+figcaption{
+    text-align: center;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+    color:white;
+}
+
+form{ 
+    width: 1300px;
+	margin: 0 auto;
+	padding: 16px;
+}
+#contact{
+    padding-top: 1rem;
+    Background-color: black;
+    color: white;
+}
+
+#contact p{
+    text-align: center;
+}
+
+#contact input{
+    padding-top: 1rem;
+    width: 1250px;
+	padding: 16px;
+    border-radius: 5px;
+    color: #007d7b;
+}
+
+button{
+    margin: 1rem 1rem 1rem 10rem;
+    width: 1000px;
+	padding: 16px;
+    
+    color: white;
+    background-color: #007d7b;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+#contact h2{
+    font-size: 1.25rem;
+    margin-left: 1rem;
+}

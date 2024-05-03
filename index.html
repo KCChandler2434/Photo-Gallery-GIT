@@ -3,9 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GIT project</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1>TK Photography</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#gallery">GALLERY</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+    <a href="#top">TOP</a>
+    <main>
+        <section id="about">
+            <h1>ABOUT</h1>
+                <p>Hello!</p> 
+                <p>I'm TK and I'm a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it's taken me all over the world.</p>
+        </section>
+        <section id="gallery">
+            <h1>GALLERY</h1>
+                <p>Here are some highlights of my work. The locations and year are in the caption.</p>
+            <section id="img">
+                <figure>
+                    <img src="\images\Chile.png" alt="photo taken in Chile">
+                    <figcaption id="chi"> CHILE, 2001 </figcaption>
+                </figure>
+                
+                <figure id="gua">
+                    <img src="/images/Guatemala.png" alt="photo taken in Guatemala">
+                    <figcaption>GUATEMALA, 1997</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="/images/Hawaii.png" alt="photo taken in Hawaii">
+                    <figcaption id="haw">HAWAII, 2010</v>
+                </figure>
+
+                <figure>
+                    <img src="/images/Iran.png" alt="photo taken in Iran">
+                    <figcaption id="ira">IRAN, 1999</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="/images/Ireland.png" alt="photo taken in Ireland">
+                    <figcaption id="ire">IRELAND, 2012</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="/images/Italy.png" alt="photo taken in Italy">
+                    <figcaption id="ita">ITALY, 2015</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="/images/Moab-Desert.png" alt="photo taken in the Moab Desert">
+                    <figcaption id="moa">MOAB DESERT, 2020</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="/images/Rocky-Mountains.png" alt="photo taken in the Rocky Mountains"> 
+                    <figcaption  id="roc">ROCKY MOUNTAINS, 2009</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="/images/Switzerland.png" alt="photo taken in Switzerland">
+                    <figcaption  id="swi">Switzerland, 2014</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="/images/UK.png" alt="photo taken in the UK">
+                    <figcaption  id="uk">UK, 2005</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="/images/USA.png" alt="photo taken in the USA"> 
+                    <figcaption id="usa">USA, 2021</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="/images/Wyoming.png" alt="photo taken in Wyoming">
+                    <figcaption id="wyo">WYOMING, 2021</figcaption>
+                </figure>
+            </section>
+
+        </section>
+        <section id="contact">
+            <h1>Contact</h1>
+                <p>Please fill out this form and I'll connect with you soon.</p>
+            <form>
+                <div class="container">
+
+                    <h2>Name</h2>
+				    <label for="name"></label>
+				    <input type="text" name="my-name" value="YOUR FULL NAME">
+
+                    <h2>Email</h2>
+                    <label for="email"></label>
+				    <input type="text" name="email" value="ENTER YOUR EMAIL ADDRESS">
+
+                    <h2>Message</h2>
+                    <label for="message"></label>
+				    <input type="text" name="my-message" value="WHAT CAN I HELP YOU WITH?">
+
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+
+                </div>
+            </form>
+        </section>  
+    </main>
+    <footer>
+        <p><small>Copyright 2021 TK Photography</small></p>
+    </footer>
 </body>
 </html>
